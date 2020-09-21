@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    background: #242B33;
+    background-position: center;
+    margin: 0 auto;
+}
+
+
+
+/*=========== HEADER ==========*/
+
+.header{
+    background: url("img/intro-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+   
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.left-logo{
+    background: url("img/screen__logo.svg");
+    width: 134px;
+    height: 66px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-menu ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    margin-left: 20px;
+    color: white;
+}
+
+     /*============HEADER-CENTER-BLOCK=========== */
+ 
+.header-center-block{
+    width: 582px;
+    height: 470px;
+    margin: 0 auto;
+}
+.header-center-block h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    margin-top: 150px;
+    color: #D4C17F;
+}
+
+.mouse-logo{
+    width: 40px;
+    height: 40px;
+    margin: 80px auto;
+}
+
+.header-center-footer{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.header-center-footer span{
+    color: white;
+}
+
+.header-center span{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    color: white;
+}
+
+/* ===========CENTER PAGE 1 =========== */
+
+.center-page{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    background: #242B33;
+
+}
+
+.container2{
+    width: 790px;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container2 div p{
+    text-align: center;
+    color: white;
+}
+
+/* ==========CENTER PAGE 2============ */
+
+.center-page-2{
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+
+.container3{
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+.center-page-2 h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+.apartments-picture{
+    display: inline-flex;
+    margin-left: -60px;
+    
+}
+
+
+
+.apartments-picture div img{ 
+    width: 535px;
+    height: 320px;
+    padding: 10px;
+}
+
+.apartments-picture div span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+/* ==========FOOTER SECTION============ */
+
+footer{
+    background: url(img/footer-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.footer-section{
+    width: 960px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.footer-section div h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+.footer-section div p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer-section div img{
+     margin-top: 55px;
+}
+
+
+
+/*======== Media query =========*/
+
+
+
+@media screen and (max-width: 1020px){
+    .apartments-picture{
+        display: inline-flex;
+        margin-left: 150px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1020px){
+    .apartments-picture div img{
+        max-width: 100%;
+        margin-left: 50px;
+
+    }
+     h2{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 1020px){
+    body{
+        width: 920px;
+        margin: 0 auto;
+        
+    }
+}
+
+
+@media screen and (max-width: 1020px){
+    .footer-section{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 450px;
+        
+
+    }
+    .apartments-picture div span{
+        display: flex;
+        justify-content: center;
+    }
+   
+}
+
+
+
+
